@@ -9,6 +9,6 @@ entries:
     name: mychart
     type: application
     urls:
-    - https://github.com/yoeum/my-helm-charts/mychart-0.1.0.tgz
+    - https://yoeum.github.io/my-helm-charts/mychart-0.1.0.tgz
     version: 0.1.0
 generated: "2024-07-19T14:45:31.3561719+09:00"
