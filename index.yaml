@@ -1,14 +1,29 @@
 apiVersion: v1
 entries:
+  istio-config:
+  - apiVersion: v2
+    appVersion: 1.21.3
+    created: "2024-07-23T11:57:38.852618+09:00"
+    description: A Helm chart for istio configs simplification
+    digest: 4ef151e45a82b97c15bc4482aba8ab6b29f5feb3aeec30335ada213e450fbd90
+    icon: https://raw.githubusercontent.com/istio/istio/master/logo/istio-bluelogo-whitebackground-unframed.svg
+    maintainers:
+    - email: DL-CloudStrategy@gmarket.com
+      name: Cloud Strategy Team
+    name: istio-config
+    type: application
+    urls:
+    - istio-config-1.0.0.tgz
+    version: 1.0.0
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-19T14:45:31.3567811+09:00"
+    created: "2024-07-23T11:57:38.8532328+09:00"
     description: A Helm chart for Kubernetes
-    digest: 9eac32a4d96a7f65ca202536fa852b986f14fc1c6031f7767096c3dc6cd671b4
+    digest: 25e6b2ddd08ed65196e9131c58ff1bedfeff748964d976b262239450e09474c1
     name: mychart
     type: application
     urls:
-    - https://yoeum.github.io/my-helm-charts/mychart-0.1.0.tgz
+    - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-19T14:45:31.3561719+09:00"
+generated: "2024-07-23T11:57:38.8520125+09:00"
