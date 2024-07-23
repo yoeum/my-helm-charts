@@ -3,7 +3,7 @@ entries:
   istio-config:
   - apiVersion: v2
     appVersion: 1.21.3
-    created: "2024-07-23T11:57:38.852618+09:00"
+    created: "2024-07-23T20:49:26.8210343+09:00"
     description: A Helm chart for istio configs simplification
     digest: 4ef151e45a82b97c15bc4482aba8ab6b29f5feb3aeec30335ada213e450fbd90
     icon: https://raw.githubusercontent.com/istio/istio/master/logo/istio-bluelogo-whitebackground-unframed.svg
@@ -18,7 +18,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-23T11:57:38.8532328+09:00"
+    created: "2024-07-23T20:49:26.8215378+09:00"
     description: A Helm chart for Kubernetes
     digest: 25e6b2ddd08ed65196e9131c58ff1bedfeff748964d976b262239450e09474c1
     name: mychart
@@ -26,4 +26,15 @@ entries:
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-23T11:57:38.8520125+09:00"
+  myhost:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-23T20:49:26.8216489+09:00"
+    description: A Helm chart for Kubernetes
+    digest: b7124e6a526e6f680f3a229668f9a2222261cceae2bdb8dd9099c1b7bf4f111c
+    name: myhost
+    type: application
+    urls:
+    - myhost-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-23T20:49:26.8203998+09:00"
